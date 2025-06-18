@@ -6,7 +6,7 @@ Whether it's turning a galloping horse into a surreal painting or applying Picas
 
 ---
 
-At the heart of NeuroInk lies **VGG19**, a powerful convolutional neural network artitecture trained on Image Net Data originally trained for image recognition. In this project, we use **VGG19 not to classify images**, but to **extract deep visual features** that represent the structure (content) and texture (style) of images.
+At the heart of NeuroInk lies **VGG19**, a powerful convolutional neural network artitecture trained on Image Net Data originally trained for image recognition. In this project, used **VGG19 not to classify images**, but to **extract deep visual features** that represent the structure (content) and texture (style) of images.
 
 By comparing these features from different layers of the network, NeuroInk understands:
 - **What** is in the content image (shapes, objects, layout)
@@ -20,19 +20,11 @@ It then optimizes a new image to **merge both worlds** — producing a visually 
 
 Below are examples of how **NeuroInk** applies artistic style to content images:
 
-### 📌 Example 1
-
 | Content Image | Style Image | Stylized Output |
 |---------------|-------------|-----------------|
-| <img src="extras/horse.jpg" width="200"/> | <img src="extras/test.jpg" width="200"/> | <img src="extras/stylized_output.png" width="200"/> |
-
----
-
-### 🎨 Example 2
-
-| Content Image | Style Image | Stylized Output |
-|---------------|-------------|-----------------|
-| <img src="extras/original.png" width="200"/> | <img src="extras/images.jpg" width="200"/> | <img src="extras/out2.png" width="200"/> |
+| <img src="extras/horse.jpg" width="1200"/> | <img src="extras/test.jpg" width="1200"/> | <img src="extras/stylized_output.png" width="1200"/> |
+|               |             |                 |
+| <img src="extras/original.png" width="1200"/> | <img src="extras/images.jpg" width="1200"/> | <img src="extras/out2.png" width="1200"/> |
 
 ---
 
